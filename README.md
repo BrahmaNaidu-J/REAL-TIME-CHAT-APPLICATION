@@ -14,3 +14,4 @@ This project is a real-time chat application built mainly with React.js on the f
 
 #output
 
+![Image](https://github.com/user-attachments/assets/32cd3cac-e9df-41a2-b16c-55738222fa80)
