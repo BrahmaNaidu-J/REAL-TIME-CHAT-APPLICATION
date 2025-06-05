@@ -17,8 +17,11 @@ On the back-end, Node.js runs a WebSocket server using the ‘ws’ library, whi
 The project includes several key features:
 
 Real-Time Messaging: Users can send messages that appear instantly on all connected clients. The WebSocket protocol provides low latency communication, making conversations feel seamless and live.
+
 Responsive UI: The React front-end is designed to work well on different screen sizes, allowing users to chat comfortably on desktops, tablets, or mobile devices.
+
 Message History (Session-Based): While the app does not store messages permanently in a database, it keeps messages visible on the client during the active session, improving usability and context for users.
+
 Connection Management: The app notifies users when others join or leave the chat, enhancing the sense of a live conversation room.
 
 The development of this project involves setting up two separate environments: the chat server and the chat client. The server uses Node.js to handle the WebSocket connections and message broadcasting logic. The client is bootstrapped using Create React App, which provides a solid foundation with tools for fast development, hot reloading, and easy build processes.
